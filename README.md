@@ -22,7 +22,7 @@ pod 'CropFrame'
 
 ## Author
 
-devgrishchenko@gmail.com, devgrishchenko@gmail.com
+devgrishchenko@gmail.com
 
 ## License
 
