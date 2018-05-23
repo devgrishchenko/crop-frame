@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CropFrame_Example' do
+  pod 'CropFrame', :path => '../'
+
+  target 'CropFrame_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
