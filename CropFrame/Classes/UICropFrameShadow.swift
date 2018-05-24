@@ -9,7 +9,7 @@
 import UIKit
 
 
-public class UIFrameShadow: UIView {
+public class UICropFrameShadow: UIView {
     
     private var shadowAlpha: CGFloat!
     
