@@ -43,6 +43,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.9625692964" green="0.36846220489999998" blue="0.30574083330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="cropFrameView" destination="wG9-cS-Bfn" id="nYb-AU-aWD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

@@ -17,9 +17,27 @@ it, simply add the following line to your Podfile:
 pod 'CropFrame', '~> 0.0.1'
 ```
 
+## Usage
+
+- Drag and drop a new UIView and assign it to UICropFrameView class.
+- Connect the view with the controller.
+
+```swift
+@IBOutlet var cropFrameView: UICropFrameView!
+```
+
+## Features
+
+- Flexible customization of UICropFrameView properties.
+- Crop UICropFrameView region to UIImage:
+
+```swift
+let image: UIImage = self.cropFrameView.crop
+```
+
 ## Author
 
-devgrishchenko@gmail.com
+Igor Grishchenko
 
 ## License
 

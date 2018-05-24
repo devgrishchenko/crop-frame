@@ -11,18 +11,20 @@ import CropFrame
 
 class ViewController: UIViewController {
 
-    var frame: UICropFrameView!
+    
+    @IBOutlet var cropFrameView: UICropFrameView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let image: UIImage = self.cropFrameView.crop
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 }
-
