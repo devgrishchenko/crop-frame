@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import CropFrame
 
 class ViewController: UIViewController {
 
+    var frame: UICropFrameView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.frame = UICropFrameView(frame: CGRect(x: 100, y: 100, width: 200, height: 300))
+        self.view.addSubview(frame)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

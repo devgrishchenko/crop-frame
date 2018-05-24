@@ -1,0 +1,6 @@
+framework module CropFrame {
+  umbrella header "CropFrame-umbrella.h"
+
+  export *
+  module * { export * }
+}

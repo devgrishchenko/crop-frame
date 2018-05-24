@@ -1,0 +1,16 @@
+PODS:
+  - CropFrame (0.1.0)
+
+DEPENDENCIES:
+  - CropFrame (from `../`)
+
+EXTERNAL SOURCES:
+  CropFrame:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CropFrame: 963f07083bc2b1265e735f71b4fc3a4ea6ab1018
+
+PODFILE CHECKSUM: 78c630239c4450726dc30da6452f5e0ef2086344
+
+COCOAPODS: 1.4.0
